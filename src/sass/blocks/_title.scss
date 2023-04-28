@@ -1,0 +1,19 @@
+.title {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 137%;/* 55/40 */
+    color: #000000;
+    &_center {
+        text-align: center;
+    }
+}
+
+
+@media (max-width: 1199.98px) {}
+@media (max-width: 990.98px) {}
+@media (max-width: 767.98px) {
+    .title {
+        font-size: 30px;
+    }
+}
+@media (max-width: 479.98px) {}

@@ -1,0 +1,54 @@
+@import 'blocks/normailze';
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap');
+@import 'base/variables';
+
+body {
+    line-height: 1;
+    font-family: 'Manrope', sans-serif;
+    font-size: 16px;
+    color: #333333;
+}
+
+.wrapper {
+    min-height: 100%;
+    overflow: hidden; /* чтобы не появлялся горизонтальный скролл */
+    display: flex;
+    flex-direction: column;/* прижимает футер к низу */
+}
+
+[class*="__container"] {/* применяется ко всем классам, где есть __container */
+    max-width: 1170px;
+    margin: 0 auto;
+}
+@media (max-width: 1199.98px) {
+    [class*="__container"] {
+        max-width: 970px;
+    }
+}
+@media (max-width: 990.98px) {
+    [class*="__container"] {
+        max-width: 750px;
+    }
+}
+@media (max-width: 767.98px) {
+    [class*="__container"] {
+        max-width: none;
+        padding: 0 15px;
+    }
+}
+
+
+@import 'blocks/header';
+@import 'blocks/page';
+@import 'blocks/mainblock';
+@import 'blocks/footer';
+@import 'blocks/how';
+@import 'blocks/title';
+@import 'blocks/deals';
+@import 'blocks/featured';
+
+
+@media (max-width: 1199.98px) {}
+@media (max-width: 990.98px) {}
+@media (max-width: 767.98px) {}
+@media (max-width: 479.98px) {}
