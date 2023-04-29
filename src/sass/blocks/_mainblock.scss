@@ -20,6 +20,7 @@
     }
 }
 .body-main-block {
+    position: relative;
     display: flex;
     align-items: flex-start;
     &__contant {
@@ -32,11 +33,6 @@
 }
 /* ++++++++++++++++++ */
 .body-main-block {
-    &__slider {
-    }
-}
-.body-main-block {
-    position: relative;
     &__arrows {
         position: absolute;
         bottom: -52px;
@@ -51,14 +47,14 @@
     &__arrow::after {
         display: none;
     }
-    &__arrow .swiper-button-prev,
-    &__arrow .swiper-button-next {
+    &__arrow.swiper-button-prev,
+    &__arrow.swiper-button-next {
         position: static;
         height: 20px;
         width: 11px;
         background: url('../img/mainblock/arrow.svg') 0 0 / 100% no-repeat;
     }
-    &__arrow .swiper-button-prev {
+    &__arrow.swiper-button-prev {
         transform: rotate(-180deg);
     }
 }
@@ -90,14 +86,14 @@
         text-transform: uppercase;/* на случай замены текста */
         font-weight: 700;
         font-size: 22px;
-        line-height: 29px;
+        line-height: 132%;
         color: #FF9900;
         margin-bottom: 20px;
     }
     &__title {
         font-weight: 800;
         font-size: 54px;
-        line-height: 73px;/* or 135% */        
+        line-height: 135%;        
         color: #000000;
         margin-bottom: 20px;
     }
@@ -118,7 +114,7 @@
     margin-right: -188px;
     display: flex;
     box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.03), 0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0227778), 0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0182222), 0px 20px 13px rgba(0, 0, 0, 0.015), 0px 8.14815px 6.51852px rgba(0, 0, 0, 0.0117778), 0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00722222);
-    background: #FFFFFF url('../img/mainblock/IconInput.svg') 33px 33px no-repeat;
+    background: #FFFFFF url('../img/mainblock/home.svg') 33px 33px no-repeat;
     &__input {
         padding: 0px 0px 0px 74px;
         background-color: transparent;
@@ -208,7 +204,7 @@
         max-width: none;
     }
 }
-@media (max-width: 990.98px) {
+@media (max-width: 991.98px) {
     .main-block {
         padding-bottom: 70px;
     }

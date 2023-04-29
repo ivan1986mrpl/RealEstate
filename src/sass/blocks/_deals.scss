@@ -3,11 +3,9 @@
     padding-bottom: 110px;
     &__container {
     }
-
     &__header {
         margin-bottom: 50px;
     }
-
     &__tabs {
     }
 }
@@ -47,11 +45,9 @@
         background: #FFFFFF;
         color: #F85A47;
         border: #F85A47 1px solid;
-
     }
 }
 .tabs-deals {
-
     &__nav {
         display: flex;
         flex-wrap: wrap;
@@ -93,10 +89,8 @@
     &__button.active::after {
         width: 100%;
     }
-
     &__body {
     }
-
     &__item {
         display: none;/* 1.27tabs */
     }
@@ -105,7 +99,6 @@
     }
 }
 .item-tabs {
-
     &__items {
         display: grid;
         gap: 10px;
@@ -160,12 +153,7 @@
         transform: scale(1.1);
     }
 }
-
-
-
-
-@media (max-width: 1199.98px) {}
-@media (max-width: 990.98px) {
+@media (max-width: 991.98px) {
     .deals {
         padding-top: 70px;
         padding-bottom: 70px;
@@ -182,4 +170,3 @@
         }
     }
 }
-@media (max-width: 479.98px) {}

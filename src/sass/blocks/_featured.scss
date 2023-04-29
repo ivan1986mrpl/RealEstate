@@ -3,11 +3,9 @@
     padding-bottom: 110px;
     &__container {
     }
-
     &__title:not(:last-child) {
         margin-bottom: 95px;
     }
-
     &__body {
         background: #F1FFFF;
         padding: 40px 40px 80px 40px;
@@ -28,7 +26,6 @@
     display: grid;
     justify-items: center;
     &__item {
-
         &_mini {
             margin-left: 20px;
             margin-right: 20px;
@@ -86,7 +83,6 @@
     }
 }
 .options-content-featured {
-
     &__item {
     }
     &__label {
@@ -105,10 +101,7 @@
         color: #545A58;
     }
 }
-
-@media (max-width: 1199.98px) {}
-/* ++++++ */
-@media (min-width: 991px) {
+@media (min-width: 992px) {
     .content-featured {
         &__body {
             max-width: 412px;
@@ -120,9 +113,7 @@
         }
     }
 }
-/* +++++++ */
-
-@media (max-width: 990.98px) {
+@media (max-width: 991.98px) {
     .featured {
         padding-top: 70px;
         padding-bottom: 70px;

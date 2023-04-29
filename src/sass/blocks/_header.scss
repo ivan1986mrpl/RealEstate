@@ -4,7 +4,6 @@
     left: 0;
     width: 100%;
     z-index: 50;
-
     &__container {
         display: flex;
         align-items: center;
@@ -15,14 +14,12 @@
         padding-top: 10px;/* отступы безопасности */
         padding-bottom: 10px;
     }
-
     &__logo {
         font-weight: 800;
         font-size: 23px;
         line-height: 31px;
         color: #31353B;
     }
-
     &__menu {
     }
 }
@@ -33,7 +30,6 @@
         column-gap: 46px;
         row-gap: 5px;
     }
-
     &__link {
         font-weight: 700;
         font-size: 13px;
@@ -44,7 +40,6 @@
         text-decoration: underline;
     }
 }
-
 @media (max-width: 767.98px) {
     .header {
         &__container {

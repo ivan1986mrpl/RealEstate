@@ -25,7 +25,7 @@ body {
         max-width: 970px;
     }
 }
-@media (max-width: 990.98px) {
+@media (max-width: 991.98px) {
     [class*="__container"] {
         max-width: 750px;
     }
@@ -41,14 +41,16 @@ body {
 @import 'blocks/header';
 @import 'blocks/page';
 @import 'blocks/mainblock';
-@import 'blocks/footer';
 @import 'blocks/how';
 @import 'blocks/title';
 @import 'blocks/deals';
 @import 'blocks/featured';
-
+@import 'blocks/reviews';
+@import 'blocks/subscribe';
+@import 'blocks/footer';
+@import 'blocks/social';
 
 @media (max-width: 1199.98px) {}
-@media (max-width: 990.98px) {}
+@media (max-width: 991.98px) {}
 @media (max-width: 767.98px) {}
 @media (max-width: 479.98px) {}
